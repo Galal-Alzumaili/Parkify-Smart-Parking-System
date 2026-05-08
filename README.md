@@ -2,6 +2,8 @@
 
 > AI-powered smart parking system using YOLOv8, EasyOCR, Flask, MySQL, and Arduino automation.
 
+![Parkify Architecture](docs/parkify-architecture-diagram.png)
+
 ---
 
 # Overview
