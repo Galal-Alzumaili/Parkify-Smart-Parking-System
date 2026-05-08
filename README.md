@@ -158,25 +158,25 @@ SQLDatabase.py
 
 ## Real-Time Dashboard
 
-![Dashboard](screenshots/dashboardScreenShot-01.png)
+![Dashboard](screenshots/dashboard-entry.png)
 
 ---
 
 ## Exit & Cost Calculation
 
-![Exit](screenshots/dashboardScreenShot-02.png)
+![Exit](screenshots/dashboard-exit.png)
 
 ---
 
 ## Arduino Gate Simulation
 
-![Arduino](screenshots/arduino-gate-simulation.png)
+![Arduino](screenshots/arduino-simulation.png)
 
 ---
 
 ## Database Records
 
-![Database](screenshots/DatabaseScreenShot.png)
+![Database](screenshots/database-records.png)
 
 ---
 
@@ -194,19 +194,35 @@ Watch the project demo video here:
 Parkify-Smart-Parking-System/
 │
 ├── ai/
-├── arduino/
-├── dashboard/
-├── database/
-├── docs/
-├── screenshots/
+│   ├── EasyOCR.py
+│   ├── UsingCamera.py
+│   ├── MyTraining.py
+│   ├── PassImageToEasyOCR.py
+│   └── config.yaml
 │
-├── EasyOCR.py
-├── UsingCamera.py
-├── SQLDatabase.py
-├── dashboard.py
-├── arduino.py
-├── config.yaml
-├── requirements.txt
+├── arduino/
+│   ├── arduino.py
+│   └── ParkifyGateCode.ino
+│
+├── dashboard/
+│   ├── dashboard.py
+│   ├── templates/
+│   └── static/
+│
+├── database/
+│   └── SQLDatabase.py
+│
+├── docs/
+│   ├── architecture-diagram.png
+│   ├── parkify-architecture-overview.png
+│
+├── screenshots/
+│   ├── dashboard-entry.png
+│   ├── dashboard-exit.png
+│   ├── arduino-simulation.png
+│   └── database-records.png
+│
+├── .gitignore
 └── README.md
 ```
 
