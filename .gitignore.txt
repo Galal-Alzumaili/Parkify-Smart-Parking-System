@@ -15,8 +15,8 @@ venv/
 *.pt
 
 # Captured Images
-static/images/*
-!static/images/.gitkeep
+dashboard/static/images/*
+!dashboard/static/images/.gitkeep
 
 # IDE
 .idea/
